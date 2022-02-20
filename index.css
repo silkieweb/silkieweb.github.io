@@ -1,5 +1,6 @@
 * {
     font-family: Inconsolata;
+    text-align: center;
 }
 
 body {
@@ -62,6 +63,10 @@ h1 {
 
 .link:hover {
     background-color: #A5BDAD;
+}
+
+#funfact {
+    font-size: 12px;
 }
 
 footer {
