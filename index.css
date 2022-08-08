@@ -1,18 +1,47 @@
+/* References!
+
+Light Green - #D0E1D6
+Dark Green - #1F2C32
+Cream - #FAEFE9
+
+font-family: Inconsolata;
+font-family: Montserrat, sans-serif;
+
+*/
+
+html {
+    max-width: 100%;
+}
+
 * {
     font-family: Inconsolata;
     text-align: center;
+}
+
+.aboutme {
+    max-width: 75%;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.funtext {
+    background-color: #D0E1D6;
 }
 
 body {
     background-color: #FAEFE9;
 }
 
-.heading {
+header {
     text-align: center;
     margin-top: 32px;
 }
 
-.heading img {
+header img {
     width: 150px;
     border-radius: 100px;
 }
@@ -25,35 +54,82 @@ h1 {
     color: #1F2C32;
 }
 
-.heading li{
+nav {
+    max-width: 100%;
+    margin: auto;
+}
+
+nav li{
     display: inline;
     padding: 20px;
 }
 
-.heading a {
+nav a {
     color: #929292;
     text-decoration: none;
 }
 
-.heading a:hover {
+nav a:hover {
     color: #1F2C32;
 }
+
+/* Flex Box! */
+
+.cuteprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.project {
+    background-color: #1F2C32;
+    padding: 3em;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 1em;
+    border-radius: 50px;
+}
+
+.project img {
+    min-width: 300px;
+}
+
+.project a:hover {
+    opacity: 70%;
+}
+
+.project h2 {
+    color: #D0E1D6;
+    font-size: 25px;
+}
+
+.project p {
+    color: #D0E1D6;
+    font-size: 15px;
+}
+
+/* Link List! */
 
 .linklist {
     background-color: #D0E1D6;
     border-radius: 50px;
     width: 45%;
-    padding: 20px;
-    margin: 50px auto auto auto;
+    padding: 10px;
+    margin: 30px auto auto auto;
 }
 
 .link {
     background-color: #FFF9F6;
     padding: 15px;
     width: 80%;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 10px auto;
     border-radius: 50px;
     text-align: center;
+}
+
+.link p {
+    font-size: 15px;
 }
 
 .link a {
